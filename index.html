@@ -1,0 +1,65 @@
+<!-- This project is for Responsive Web Design Certification from https://www.freecodecamp.org/learn/responsive-web-design/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #main{
+            text-align: left;
+            margin: 0px 5px 0px 5px;
+        }
+        /* make the image responsive */
+        #image{
+            max-width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        #title{
+            width: 70vw;
+        }
+        #img-caption{
+            width: 50vw;
+        }
+        /* change presentation based on screen size */
+        @media (max-height: 800px){
+            #image{
+            max-width: 100%;
+            height: auto;
+            }
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page - Dr. Norman Borlaug</title>
+</head>
+<body>
+    <!--/User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements. -->
+    <div class="main" id="main">    
+        <!-- User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug"). -->
+        <h1 id="title">Dr. Norman Borlaug</h1>
+        <!-- User Story #3: I should see either a figure or a div element with a corresponding id="img-div". -->
+        <div class="img-div" id="img-div">
+            <!-- User Story #4: Within the img-div element, I should see an img element with a corresponding id="image". -->
+            <img src="Img/norman.jpg" alt="Dr. Norman Borlaug Picture" id="image">
+            <!-- User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div -->
+            <caption id="img-caption">
+                He is known as the Father of Green Revolution
+                <!-- image from https://www.google.com/url?sa=i&url=https%3A%2F%2Fthecounter.org%2Fnorman-borlaug-man-who-tried-to-feed-the-world-pbs-green-revolution%2F&psig=AOvVaw1wOkN4XWhqpjUu_KQmlsXd&ust=1650893186870000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNiIg8LmrPcCFQAAAAAdAAAAABAD -->
+            </caption>
+            <!-- User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page. -->
+            <h3 id="tribute-info">More information about Dr. Norman Borlaugh: </h3>
+            <ul>
+                <li>Born on March 25, 1914 from Saude, Iowa, U.S</li>
+                <li>Died on September 12, 2009 from Dallas, Texas</li>
+                <li>He is an American agricultural scientist, and plant pathologist</li>
+                <li>He won the Nobel Prize for Peace in 1970</li>
+                <li>He laid the groundwork for agricultural technology, which has helped to lessen world hunger</li>
+                <li>Borlaug earned a Ph.D. in plant pathology from the University of Minnesota after studying plant biology and forestry there</li>
+                <li>Borlaug experimented with novel wheat varieties, creating disease-resistant strains that could withstand the harsh climate, in order to assist impoverished farmers who struggled with diseased and low-producing crops</li>
+            </ul>
+            <!-- User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page.  -->
+            <footer>Want to read more about Dr. Normal Borlaugh? Visit <a href="https://www.britannica.com/biography/Norman-Borlaug" id="tribute-link" target="_blank">Britannica</a>.</footer>
+        </div>
+    </div>
+</body>
+</html>
