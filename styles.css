@@ -9,9 +9,56 @@ body {
     overflow: hidden;
     box-sizing: border-box;
     margin: 0;
+    background-color: #2C3333;
+    overflow-y: auto;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Media for Mobile */
 @media only screen and (min-width: 428px) {
-    
+    #title-text {
+        font-weight: 700;
+        font-size: 5vh;
+        text-align: center;
+        background-color: #395B64;
+    }
+
+    .content-container {
+        padding: 20px;
+    }
+
+    #image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: 100%;
+    }
+
+    #quote{
+        font-weight: 400;
+        font-size: 3vh;
+    }
+
+    #info-title{
+        font-weight: 700;
+        font-size: 4vh;
+    }
+
+    li{
+        font-weight: 400;
+        font-size: 3vh;
+    }
+
+    .footer-container{
+        font-weight: 400;
+        font-size: 2vh;
+    }
+
+    #tribute-link{
+        font-weight: 400;
+        font-size: 2vh;
+        color: #E7F6F2;
+    }
 }
