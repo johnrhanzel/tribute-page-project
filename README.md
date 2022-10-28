@@ -24,11 +24,5 @@ User Story #8: The img element should responsively resize, relative to the width
 
 User Story #9: The img element should be centered within its parent element.
 
--- Know more about me --
 
-- 👋 Hi, I’m John Rhanzel
-- 👀 I’m interested in Software Engineering
-- 🌱 I’m currently learning Front-end Development
-- 💞️ I’m looking to collaborate on open-source projects
-- 📫 How to reach me johnrhanzeleb@gmail.com
-- 🐥 Follow me on twitter @hellorhanzel
+<h1>https://johnrhanzel.github.io/tribute-page-project/</h1>
